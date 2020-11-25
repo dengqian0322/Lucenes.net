@@ -1,0 +1,22 @@
+出错文件：原因：iTextSharp.text.exceptions.InvalidPdfException: Rebuild failed: trailer not found.; Original message: PDF startxref not found.
+   在 iTextSharp.text.pdf.PdfReader..ctor(ReaderProperties properties, IRandomAccessSource byteSource)
+   在 iTextSharp.text.pdf.PdfReader..ctor(ReaderProperties properties, String filename)
+   在 iTextSharp.text.pdf.PdfReader..ctor(String filename)
+   在 LucenesApi.Controllers.LucenesController.OnCreated(String filepath) 位置 D:\Lucenes\LucenesApi\LucenesApi\Controllers\LucenesController.cs:行号 242
+出错文件：原因：iTextSharp.text.exceptions.InvalidPdfException: Rebuild failed: trailer not found.; Original message: PDF startxref not found.
+   在 iTextSharp.text.pdf.PdfReader..ctor(ReaderProperties properties, IRandomAccessSource byteSource)
+   在 iTextSharp.text.pdf.PdfReader..ctor(ReaderProperties properties, String filename)
+   在 iTextSharp.text.pdf.PdfReader..ctor(String filename)
+   在 LucenesApi.Controllers.LucenesController.OnCreated(String filepath) 位置 D:\Lucenes\LucenesApi\LucenesApi\Controllers\LucenesController.cs:行号 242
+出错文件：原因：System.IO.IOException: D:\LucenesApi\group\121212.Pdf not found as file or resource.
+   在 iTextSharp.text.io.RandomAccessSourceFactory.CreateByReadingToMemory(String filename)
+   在 iTextSharp.text.io.RandomAccessSourceFactory.CreateBestSource(String filename)
+   在 iTextSharp.text.pdf.PdfReader..ctor(ReaderProperties properties, String filename)
+   在 iTextSharp.text.pdf.PdfReader..ctor(String filename)
+   在 LucenesApi.Controllers.LucenesController.OnCreated(String filepath)
+出错文件：原因：System.IO.IOException: D:\LucenesApi\group\121212.Pdf not found as file or resource.
+   在 iTextSharp.text.io.RandomAccessSourceFactory.CreateByReadingToMemory(String filename)
+   在 iTextSharp.text.io.RandomAccessSourceFactory.CreateBestSource(String filename)
+   在 iTextSharp.text.pdf.PdfReader..ctor(ReaderProperties properties, String filename)
+   在 iTextSharp.text.pdf.PdfReader..ctor(String filename)
+   在 LucenesApi.Controllers.LucenesController.OnCreated(String filepath) 位置 D:\Lucenes\LucenesApi\LucenesApi\Controllers\LucenesController.cs:行号 256
